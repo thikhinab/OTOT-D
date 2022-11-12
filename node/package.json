@@ -1,0 +1,14 @@
+{
+  "name": "otot-d",
+  "version": "1.0.0",
+  "scripts": {
+    "producer": "node producer.js otot-d.properties",
+    "consumer": "node consumer.js otot-d.properties "
+  },
+  "author": "Thikhina Bakmeedeniya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-rdkafka": "^2.14.0"
+  }
+}
